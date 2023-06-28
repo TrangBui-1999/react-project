@@ -1,6 +1,5 @@
-
 .App {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   background-color: #282c34;
   min-height: 100vh;
   display: grid;
@@ -14,5 +13,8 @@ h1 {
   align-items: center;
   justify-content: center;
 }
-
-
+ul,
+li,
+a {
+  all: unset;
+}

@@ -4,6 +4,7 @@ export async function getWeatherData(lat, lon) {
     `https://apis.scrimba.com/openweathermap/data/2.5/weather?lat=${lat}&lon=${lon}`
   );
   const data = await res.json();
+  //console.log(data);
   return data;
 }
 export async function getWeatherDemo() {
